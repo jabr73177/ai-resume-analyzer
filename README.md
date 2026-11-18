@@ -4,7 +4,7 @@ An AI-powered resume analyzer that helps job seekers evaluate their resumes agai
 
 ##  Live Demo
 
-**[Try AI Resume Analyzer](YOUR_PUTER_DEPLOYMENT_URL)**
+**[Try AI Resume Analyzer](https://ai-resume-analyzer-silk-two.vercel.app/)**
 
 ##  Screenshots
 

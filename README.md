@@ -1,87 +1,106 @@
-# Welcome to React Router!
+# AI Resume Analyzer 
 
-A modern, production-ready template for building full-stack React applications using React Router.
+An AI-powered resume analyzer that helps job seekers evaluate their resumes against specific job descriptions, identify weaknesses, and receive actionable feedback to improve their chances of landing their dream job.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+##  Live Demo
 
-## Features
+**[Try AI Resume Analyzer](YOUR_PUTER_DEPLOYMENT_URL)**
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+##  Screenshots
 
-## Getting Started
+<!-- Add your application screenshots here -->
+
+##  Features
+
+- **Resume Upload:** Upload PDF resumes for analysis.
+- **AI-Powered Analysis:** Get intelligent feedback and insights using AI.
+- **ATS Score:** Evaluate your resume against ATS-related criteria.
+- **Job Matching:** Compare your resume with specific job descriptions.
+- **Detailed Feedback:** Get scores, strengths, weaknesses, and suggestions for improvement.
+- **User Authentication:** Secure authentication powered by Puter.js.
+- **Cloud Storage:** Save and access resumes and analysis results.
+- **Job Information:** Add company names, job titles, and job descriptions.
+- **Responsive Design:** Works across desktop and mobile devices.
+
+##  Technologies
+
+- React
+- TypeScript
+- React Router v7
+- Tailwind CSS
+- Puter.js
+- PDF Processing
+
+##  Key Concepts
+
+- AI integration and prompt engineering
+- PDF file processing
+- Authentication and user management
+- Cloud storage integration
+- Asynchronous operations
+- State management
+- Responsive web design
+
+##  How It Works
+
+1. Sign in using Puter authentication.
+2. Upload your resume in PDF format.
+3. Enter the target company, job title, and job description.
+4. The application extracts and processes your resume content.
+5. Puter.js handles the AI-powered analysis.
+6. Review your resume score, job match, and improvement suggestions.
+7. Save and access your analyses through cloud storage.
+
+##  Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm
+- A Puter account
 
 ### Installation
 
-Install the dependencies:
+1. Clone the repository:
 
-```bash
-npm install
-```
+   ```bash
+   git clone YOUR_GITHUB_REPOSITORY_URL
+   ```
 
-### Development
+2. Navigate to the project directory:
 
-Start the development server with HMR:
+   ```bash
+   cd ai-resume-analyzer
+   ```
 
-```bash
-npm run dev
-```
+3. Install dependencies:
 
-Your application will be available at `http://localhost:5173`.
+   ```bash
+   npm install
+   ```
 
-## Building for Production
+4. Start the development server:
 
-Create a production build:
+   ```bash
+   npm run dev
+   ```
 
-```bash
-npm run build
-```
+5. Open the local development URL in your browser.
 
-## Deployment
+##  Deployment
 
-### Docker Deployment
+The application is deployed using **Puter**, with Puter.js providing:
 
-To build and run using Docker:
+- User authentication
+- AI capabilities
+- Cloud storage
 
-```bash
-docker build -t my-app .
+##  Author
 
-# Run the container
-docker run -p 3000:3000 my-app
-```
+**Mohamed Gaber**
 
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+- GitHub: [@jabr73177](https://github.com/jabr73177)
 
 ---
 
-Built with ❤️ using React Router.
+ If you find this project useful, consider giving it a star!
